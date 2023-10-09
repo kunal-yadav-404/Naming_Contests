@@ -10,7 +10,7 @@ server.set("view engine","ejs");
 server.use("/",(req,res)=>{
     // res.send("Hello Kunal");
     res.render("index",{
-        content: "EJS is <em>cool!</em> Kunal",
+        content: "EJS is <em>cool!</em> Kunal Yadav",
     });
 });
 
